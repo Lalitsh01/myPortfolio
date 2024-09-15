@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>Portfolio | Lalit Sharma ©🧑‍💻</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/coding%20(22).ico">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <style>
+
+        /*======================================
+        //--//-->   ABOUT
+        ======================================*/
+
+        .about-mf .box-shadow-full {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
+        .about-mf .about-img {
+            margin-bottom: 2rem;
+        }
+
+        .about-mf .about-img img {
+            margin-left: 10px;
+        }
+
+        .aboutmeimg {
+            width: 100%;
+            height: 100%;
+            border-radius: 55%;
+
+        }
+        .half-rounded {
+            position: absolute;
+            right: 5%;
+            width: 65% !important; /* Adjust as needed */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 0 5% 0 5%; /* 50% rounded corners on top */
+            overflow: hidden; /* Hide overflow */
+        }
+
+
+        .card {
+            background: none; /* Remove background */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8);
+        }
+
+        .skill-mf .progress {
+            /* background-color: #cde1f8; */
+            margin: .5rem 0 1.2rem 0;
+            border-radius: 0;
+            height: .7rem;
+        }
+
+        .skill-mf .progress .progress-bar {
+            height: .7rem;
+            background-color: #ffbd39;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 100px auto;
+        }
+
+        .containert {
+            padding: 10px 50px;
+            position: relative;
+            width: 45%; /* Set a fixed width */
+            height: 200px; /* Set a fixed height */
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .text-boxt {
+            position: relative;
+            padding: 20px 30px;
+            background: linear-gradient(135deg, #000000, #333333);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px; /* Adjust font size */
+        }
+
+
+        /* Animation styles */
+        #typing-animation {
+            position: relative;
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 2s steps(20, end) infinite;
+        }
+
+        #typing-animation:before {
+            content: "";
+            /* position: absolute; */
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background-color: #ccc;
+            animation: typing-cursor 0.5s ease-in-out infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes typing-cursor {
+            from {
+                width: 5px;
+            }
+            to {
+                width: 0;
+            }
+        }
+
+
+        /* project image zoom effect */
+
+        .zoom-effect {
+            overflow: hidden;
+            transition: transform 0.3s ease-out;
+        }
+
+        .zoom-effect:hover {
+            transform: scale(1.1);
+        }
+
+
+    </style>
+
+
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Lalit Sharma</a>
+        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+                data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav nav ml-auto">
+                <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+                <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+                <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section id="home-section" class="hero">
+    <div class="home-slider  owl-carousel">
+        <div class="slider-item ">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+                     data-scrollax-parent="true">
+<!--                    <div class="one-third js-fullheight order-md-last img"-->
+<!--                         style="background-image:url(images/homejpg.jpg);width: 50%">-->
+<!--                        <div class="overlay"></div>-->
+<!--                    </div>-->
+                    <div class="half-rounded one-third js-fullheight order-md-last img">
+                        <img src="./images/homejpg.jpg" alt="Half Rounded Image" class="half-rounded">
+                    </div>
+
+                    <div class="one-forth d-flex  align-items-center ftco-animate"
+                         data-scrollax=" properties: { translateY: '70%' }">
+                        <div class="text">
+                            <span class="subheading">Hello!</span>
+                            <h1 class="mb-4 mt-3">I'm <span>Lalit Sharma</span></h1>
+
+                            <!-- Element to contain animated typing -->
+                            <span id="typing-animation"></span>
+
+                            <script>
+
+                                // Initialize the typing animation
+                                const typingAnimationElement = document.getElementById('typing-animation');
+
+                                // Create an array of typing text
+                                const typingTexts = [
+                                    'Aspiring Java Developer',
+                                    'Passionate about coding',
+                                    'Self-driven & enthusiastic',
+                                ];
+
+                                // Create a function to display the typing animation for a given text
+                                function playTypingAnimation(text) {
+                                    // Loop through each character and add it to the element
+                                    for (let i = 0; i < text.length; i++) {
+                                        setTimeout(() => {
+                                            typingAnimationElement.textContent += text[i];
+                                        }, i * 200); // Increase the delay to slow down the typing animation
+                                    }
+
+                                    // Once the animation is complete, reset the text and start over
+                                    setTimeout(() => {
+                                        typingAnimationElement.textContent = '';
+                                        playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+                                    }, text.length * 200);
+                                }
+
+                                // Start the typing animation loop
+                                playTypingAnimation(typingTexts[0]);
+
+                            </script>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="row d-flex align-items-stretch">
+                <div class="col-md-6 col-lg-5 d-flex">
+                    <div class="img-about img d-flex align-items-stretch">
+                        <div class="overlay">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-5">
+                                    <div class="about-img">
+                                        <img src="images/profile-pic.png" class="aboutmeimg" alt="">
+                                    </div>
+                                </div>
+                                <!-- Details next to profile image -->
+                                <div class="col-sm-6 col-md-7">
+                                    <div class="about-info">
+                                        <br>
+                                        <p><span class="title-s">Name: </span> <span>Lalit Sharma</span></p>
+                                        <p><span class="title-s">Email: </span> <span>lalit.main01@gmail.com</span></p>
+                                        <p><span class="title-s">Address: </span> <span>Beawar(Raj.),India</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Skills</h2>
+                            <div class="container mt-5">
+                                <div class="row">
+
+
+                                    <div class="col-md-3 col-sm-6 mb-4">
+                                        <div class="card">
+                                            <img src="./images/HTML5_Badge.svg.png" class="card-img-top" alt="HTML5">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-4">
+                                        <div class="card">
+                                            <img src="./images/CSS.png" class="card-img-top" alt="CSS3">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-4">
+                                        <div class="card">
+                                            <img src="./images/javascript.png" class="card-img-top" alt="JavaScript">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-4">
+                                        <div class="card">
+                                            <img src="./images/Bootstrap_logo.svg.png" class="card-img-top"
+                                                 alt="Bootstrap">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6 mb-4">
+                                        <div class="card">
+                                            <img src="./images/Java.png" class="card-img-top" alt="JavaScript">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-4">
+                                        <div class="card">
+                                            <img src="./images/spring.png" class="card-img-top" alt="JavaScript">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-4">
+                                        <div class="card">
+                                            <img src="./images/springboot.png" class="card-img-top" alt="JavaScript">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-6 mb-4">
+                                        <div class="card">
+                                            <img src="./images/mysql.png" class="card-img-top" alt="JavaScript">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+                    <div class="row justify-content-start pb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+
+                            <h1 class="big">About</h1>
+                            <h2 class="mb-4">About Me</h2>
+
+                            <p>"I'm a motivated and adaptable programmer with a passion for solving complex, real-world
+                                problems. I'm a quick learner, self-driven, and enthusiastic about acquiring new
+                                skills."<br>Currently,I'm pursuing <b>Mater of Computer Application(MCA)</b> from <a
+                                        href="https://www.kiet.edu/" target="_blank">KIET Group of
+                                    Institutions,Ghaziabad</a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                        <div class="text">
+
+                            <p><a href="https://www.linkedin.com/in/lalit-sharma-48bb94237/" target="_blank"
+                                  class="btn btn-primary py-3 px-3">LinkedIn</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-section ftco-no-pb" id="resume-section">
+    <div class="container">
+        <div class="row justify-content-center pb-5">
+            <div class="col-md-10 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Resume</h1>
+                <h2 class="mb-4">Resume</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <h1 class="big-4">Certificates</h1>
+            <div class="underline"></div>
+        </div>
+        <br>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">JAN 2024</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>CLA-Programming Essential in C</p>
+                            <p>CISCO</p>
+                            <p>Duration: 1 Week</p>
+                            <a href="https://drive.google.com/file/d/1eGAT9OO3VBoFyeSxrY_YP2Ias6qhbsAu/view?usp=sharing"
+                               target="_blank"><i class="bi bi-link-45deg">View</i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">MAY 2024</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Programming in Java</p>
+                            <p>NPTEL</p>
+                            <p>Duration: 12 Weeks</p>
+                            <a href="https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs43/Course/NPTEL24CS43S105590096930558923.pdf"
+                               target="_blank"><i class="bi bi-link-45deg">View</i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">APRIL 2024</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Programming in Java</p>
+                            <p>NPTEL</p>
+                            <p>Duration: 12 Weeks</p>
+                            <a href="https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs21/Course/NPTEL24CS21S55790007130102602.pdf"
+                               target="_blank"><i class="bi bi-link-45deg">View</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <h1 class="big-4">Education</h1>
+            <div class="underline"></div>
+        </div>
+        <br>
+
+        <div class="row">
+
+            <div class="timeline" style="display: flex; justify-content: space-between;">
+                <div class="containert">
+                    <section class="text-boxt">
+                        <h5>KIET Group of Institutions,Ghaziabad</h5>
+                        <h6>Master of Computer Application(MCA)</h6>
+                        <p>2023-Present</p>
+                    </section>
+                </div>
+                <div class="containert">
+                    <section class="text-boxt">
+                        <h5>Star Infotech College,Ajmer(Raj.)</h5>
+                        <h6>Bachelor of Computer Application(BCA)</h6>
+                        <p>2020-2023</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6 text-center ftco-animate">
+                <p>
+                    <a href="https://drive.usercontent.google.com/u/0/uc?id=11JyAq1MYSJE7dpaAFAN0GCWjjVrv1hAt&export=download"
+                       class="btn btn-primary py-4 px-5">Download CV</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-section" id="project-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Projects</h1>
+                <h2 class="mb-4">Projects</h2>
+                <p>Below are the projects using JAVA.</p>
+            </div>
+        </div>
+        <div class="row d-flex">
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                    <a href="https://github.com/Lalitsh01/JAVA_Projects/tree/main/TextEditor"
+                       class="block-20 zoom-effect" style="background-image: url('images/projEditor1.png');">
+                    </a>
+                    <div class="text mt-3 float-right d-block">
+
+                        <h3 class="heading"><a
+                                href="https://github.com/rishabhnmishra/SQL_Music_Store_Analysis/blob/main/Music_Store_Query.sql">Digital
+                            Simple Text Editor </a></h3>
+                        <p>This project is a simple text editor application built using Java Swing. The application
+                            provides basic functionalities for text editing, such as creating, opening, saving,
+                            printing, and editing text documents. It is designed to be straightforward and easy to use,
+                            making it a great example of a Java Swing application.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                    <a href="https://github.com/Lalitsh01/JAVA_Projects/tree/main/ReservationSystemUI"
+                       class="block-20 zoom-effect" style="background-image: url('images/projGRS2.png');">
+                    </a>
+                    <div class="text mt-3 float-right d-block">
+
+                        <h3 class="heading"><a
+                                href="https://github.com/rishabhnmishra/Python_Diwali_Sales_Analysis/blob/main/Diwali_Sales_Analysis.ipynb">
+                            ReservationSystemUI</a></h3>
+                        <p>A simple console-based reservation system implemented in Java. The system allows users to
+                            make reservations, view all reservations, cancel reservations, and exit the system. The
+                            system uses a simple array-based data structure to store reservations and provides a
+                            text-based user interface.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+
+    </div>
+</section>
+
+
+<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Contact</h1>
+                <h2 class="mb-4">Contact Me</h2>
+                <p>Below are the details to reach out to me!</p>
+            </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-map-signs"></span>
+                    </div>
+                    <h3 class="mb-4">Address</h3>
+                    <p>Beawar(Raj),India</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-phone2"></span>
+                    </div>
+                    <h3 class="mb-4">Contact Number</h3>
+                    <p><a href="tel://+1 101 0101 101">+1 101 0101 101</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-paper-plane"></span>
+                    </div>
+                    <h3 class="mb-4">Email Address</h3>
+                    <p><a href="mailto:lalit.main01@gmail.com">lalit.main01@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-globe"></span>
+                    </div>
+                    <h3 class="mb-4">CV</h3>
+                    <p><a href="https://drive.google.com/file/d/11JyAq1MYSJE7dpaAFAN0GCWjjVrv1hAt/view?usp=sharing"
+                          target="_blank">Open.me</a></p>
+                </div>
+            </div>
+
+            <div class="container">
+                <br>
+                <br>
+
+                <br>
+                <ul class="ftco-footer-social list-styled d-flex justify-content-center align-items-center mb-0">
+                    <li class="ftco-animate normal-txt">Find me on</li>
+                    <li class="ftco-animate"><a href="https://www.linkedin.com/in/lalit-sharma-48bb94237/"
+                                                target="_blank"><span
+                            class="icon-linkedin"></span></a></li>
+                    <li class="ftco-animate"><a href="https://x.com/Lalit_Sh108" target="_blank"><span
+                            class="icon-twitter"></span></a></li>
+                    <li class="ftco-animate"><a href="https://www.hackerrank.com/profile/lalitsharmabeaw1"
+                                                target="_blank"><span
+                            class="icon-code"></span></a></li>
+                    <li class="ftco-animate"><a href="https://leetcode.com/u/Lalitsh01/" target="_blank"><span
+                            class="icon-code"></span></a></li>
+                </ul>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00"/>
+    </svg>
+</div>
+<script>
+    document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+            document.title = 'Come back soon!🚀✌️';
+        } else {
+            document.title = 'Portfolio | Lalit Sharma ©🧑‍💻';
+        }
+    });
+</script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/scrollax.min.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
